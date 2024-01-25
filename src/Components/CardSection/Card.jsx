@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = (props) => {
   return (
-    <div className="max-w-[450px] w-[90%] shadow-lg shadow-black p-8  mt-8">
+    <div className="max-w-[450px] w-[90%] shadow-[0px_2px_28px_0px_rgba(0,0,0,0.1)] p-8 rounded-lg mt-8">
       <h1 className="text-2xl font-medium tracking-widest text-center mb-2 font-['Work Sans',Helvetica,Arial,Lucida,sans-serif']">
         {props.heeadingg}
       </h1>
