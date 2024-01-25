@@ -12,7 +12,7 @@ const Card = (props) => {
       <p className="text-[#666] text-xl text-center mt-7 leading-8">
         {props.paragraph}
       </p>
-      <button className="block m-auto bg-[#bb2026;] px-6 py-3 rounded-md text-white text-xl font-medium mt-6">
+      <button className="block m-auto bg-[#bb2026;] px-6 py-3 rounded-md text-white text-xl font-medium mt-6 hover:bg-white hover:text-[#bb2026;] hover:ease-linear hover:duration-200">
         {props.giftbtn}
       </button>
     </div>

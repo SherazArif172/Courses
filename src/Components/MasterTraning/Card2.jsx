@@ -19,7 +19,7 @@ const Card2 = () => {
       <h1 className="text-center text-xl font-bold mt-7 leading-8">
         Only open to The Energy Medicine Training graduates.
       </h1>
-      <button className="block m-auto bg-[#bb2026;] px-6 py-3 rounded-md text-white text-xl font-medium mt-6">
+      <button className="block m-auto bg-[#bb2026;] px-6 py-3 rounded-md text-white text-xl font-medium mt-6 hover:bg-white hover:text-[#bb2026;] hover:ease-linear hover:duration-200">
         Join now
       </button>
     </div>
