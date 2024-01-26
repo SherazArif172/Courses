@@ -6,6 +6,7 @@ import AdvancedSection from "./Components/AdvancedCourses/AdvancedSection";
 import Extensive from "./Components/ExtensiveSection/images/Extensive";
 import MasterSection from "./Components/MasterTraning/MasterSection";
 import TextMain from "./Components/TextSection/TextMain";
+import FooterMain from "./Components/Footer/FooterMain";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Extensive />
       <MasterSection />
       <TextMain />
+      <FooterMain />
     </div>
   );
 }
