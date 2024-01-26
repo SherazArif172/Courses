@@ -5,9 +5,9 @@ import Curve from "./images/download.svg";
 
 const SpirtualSection = () => {
   return (
-    <div className="relative mt-20 w-full">
-      <div className="absolute">
-        <img src={BgGirlimg} alt="" />
+    <div className="overflow-hidden relative mt-20 ">
+      <div className="absolute object-cover ">
+        <img src={BgGirlimg} alt="" className="bg-cover bg-center" />
       </div>
       <div className="relative ">
         <img
