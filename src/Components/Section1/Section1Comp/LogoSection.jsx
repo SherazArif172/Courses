@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import logoo from "../images/fourwinds-favicon.png.png";
+import { FaBars } from "react-icons/fa";
 
 const AboutUs = () => <div></div>;
 const EnergyTraining = () => <div></div>;
@@ -27,33 +28,22 @@ const LogoSection = () => {
               <img src={logoo} alt="" className="lg:w-[100%] w-[80%]" />
             </Link>
           </div>
-          <div className="lg:hidden text-white ">
+          <div className="lg:hidden text-white text-3xl ">
             <button onClick={toggleMenu}>
-              <svg
-                className="w-6 h-6 "
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16m-7 6h7"
-                ></path>
-              </svg>
+              <FaBars />
             </button>
           </div>
           <div
-            className={`lg:flex ${showMenu ? "fixed" : "hidden"} ${
+            className={`lg:flex ${
+              showMenu ? "fixed left-0" : "hidden -left-full"
+            } ${
               showMenu ? "bg-white" : "md:bg-none"
-            } lg:w-full w-[80%] justify-end top-0 left-0 z-50`}
+            } lg:w-full w-[80%] lg h-full justify-end top-0 left-0 z-50 `}
           >
-            <ul className="flex flex-col lg:flex-row gap-5 p-2">
+            <ul className="flex flex-col justify-center items-center  lg:flex-row lg:gap-5 gap-9 p-2 lg:pt-0 pt-32  ">
               <li className="group transition duration-500 ease-in-out relative text-[18px] list-none">
                 <Link to="/about">About Us</Link>
-                <div className="absolute w-full h-0.5 bg-red-700 bottom-0 left-0 origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform"></div>
+                <div className="absolute w-full   h-0.5 bg-red-700 bottom-0 left-0 origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform"></div>
               </li>
               <li className="group transition duration-500 ease-in-out relative text-[18px] list-none">
                 <Link to="/energy-training">The Energy Medicine Training</Link>
@@ -61,11 +51,11 @@ const LogoSection = () => {
               </li>
               <li className="group transition duration-500 ease-in-out relative text-[18px] list-none">
                 <Link to="/online-courses">Online courses</Link>
-                <div className="absolute w-full h-0.5 bg-red-700 bottom-0 left-0 origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform"></div>
+                <div className="absolute w-full  h-0.5 bg-red-700 bottom-0 left-0 origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform"></div>
               </li>
               <li className="group transition duration-500 ease-in-out relative text-[18px] list-none">
                 <Link to="/events">Events</Link>
-                <div className="absolute w-full h-0.5 bg-red-700 bottom-0 left-0 origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform"></div>
+                <div className="absolute w-full  h-0.5 bg-red-700 bottom-0 left-0 origin-left transform scale-x-0 group-hover:scale-x-100 transition-transform"></div>
               </li>
             </ul>
             {showMenu && (

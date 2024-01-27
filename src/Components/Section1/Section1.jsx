@@ -8,7 +8,7 @@ import Bgcurve from "./images/bgcurve.svg";
 const Section1 = () => {
   return (
     <div className="overflow-hidden relative w-full ">
-      <div className="absolute top-0   h-full w-full overflow-hidden ">
+      <div className="absolute top-0 h-full w-full overflow-hidden ">
         <img
           src={bgimg}
           alt=""

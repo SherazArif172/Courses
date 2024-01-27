@@ -13,11 +13,11 @@ const FooterMain = () => {
   return (
     <Router>
       <div className="relative mt-24 pb-24 ">
-        <div className="z-0 absolute bottom-0 object-cover w-full h-full  ">
+        <div className="z-0 absolute bottom-0  w-full h-full  ">
           <img
             src={BgFooter}
             alt=""
-            className="w-full h-full overflow-hidden"
+            className="w-full h-full object-cover overflow-hidden"
           />
         </div>
         <div className="w-full h-[100px]"></div>

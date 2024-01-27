@@ -17,7 +17,7 @@ const SpirtualSection = () => {
         <img
           src={Spirtual}
           alt="Deepen your spirtual practice from anywhere"
-          className="md:w-[47%] w-full  pt-32 md:ps-28 md:px-0 px-7"
+          className="lg:w-[47%] w-full  pt-32 lg:ps-28 lg:px-0 px-7"
         />
       </div>
       <div className="relative lg:ps-24 lg:mx-0 mx-5 pt-8 text-lg lg:w-[50%] lg:m-0  text-center font-thin">
