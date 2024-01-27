@@ -1,7 +1,7 @@
 import React from "react";
-import Extensiceimg from "./Online-Courses-Header-2-1.jpg";
-import ExtensiveQuot from "./Text-3.png.png";
-import Curve from "./bgcurve.svg";
+import Extensiceimg from "./images/Online-Courses-Header-2-1.jpg";
+import ExtensiveQuot from "./images/Text-3.png.png";
+import Curve from "./images/bgcurve.svg";
 
 const Extensive = () => {
   return (
