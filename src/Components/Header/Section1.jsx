@@ -5,7 +5,7 @@ import LogoSection from "./Section1Comp/LogoSection";
 import Quot from "./images/Quote.png.webp";
 import Bgcurve from "./images/bgcurve.svg";
 
-const Section1 = () => {
+const Header = () => {
   return (
     <div className="overflow-hidden relative w-full ">
       <div className="absolute top-0 h-full w-full overflow-hidden ">
@@ -29,4 +29,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default Header;

@@ -6,10 +6,10 @@ const Gift = () => {
     <div className="flex justify-center mt-10">
       <div className="">
         <img src={Giftimg} alt="" className="w-24 m-auto" />
-        <h1 className="text-center text-4xl tracking-widest font-medium mt-5">
+        <h1 className="text-center text-4xl tracking-widest font-medium mt-5 lg:px-0 px-3">
           A GIFT FROM US TO YOU
         </h1>
-        <p className="text-center mt-4 text-[#666] tracking-widest">
+        <p className="text-center mt-4 text-[#666] tracking-widest lg:px-0 px-4">
           Because your happiness and wellbeing matters, here is a gift to help
           you keep up with the fast-pace of everyday life.
         </p>

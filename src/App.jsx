@@ -1,4 +1,4 @@
-import Section1 from "./Components/Section1/Section1";
+import Header from "./Components/Header/Section1";
 import CardSection from "./Components/GitfSection/CardSection";
 import CoursesSection from "./Components/CoursesSection/CoursesSection";
 import SpirtualSection from "./Components/SpirtualSection/SpirtualSection";
@@ -10,8 +10,8 @@ import FooterMain from "./Components/Footer/FooterMain";
 
 function App() {
   return (
-    <div className="min-w-screen">
-      <Section1 />
+    <div className="w-[100%]">
+      <Header />
       <CardSection />
       <CoursesSection />
       <SpirtualSection />

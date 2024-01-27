@@ -5,7 +5,7 @@ const CoursesTop = () => {
   return (
     <div className="mt-36">
       <img src={Star} alt="" className="w-24 m-auto " />
-      <h1 className="text-center text-4xl tracking-widest font-medium mt-7">
+      <h1 className="text-center text-4xl tracking-widest font-medium mt-7 lg:px-0 px-3">
         BEGINNER COURSES
       </h1>
       <p className="text-center text-lg mt-4 text-[#666] tracking-widest">

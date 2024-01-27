@@ -3,7 +3,7 @@ import React from "react";
 const Text = () => {
   return (
     <div className=" mt-20 w-full">
-      <h1 className="text-center text-4xl tracking-widest font-medium mt-7">
+      <h1 className="text-center text-4xl tracking-widest font-medium mt-7 lg:px-0 px-2">
         WHAT PEOPLE ARE SAYING ABOUT OUR COURSES
       </h1>
       <div className="grid md:grid-cols-3 lg:px-16">

@@ -6,10 +6,10 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 
-const Blog = () => <div>Blog Content</div>;
-const Resources = () => <div>Resources Content</div>;
-const AlbertoVilloldo = () => <div>Alberto Villoldo Content</div>;
-const MunayKi = () => <div>Munay-Ki Content</div>;
+const Blog = () => <div></div>;
+const Resources = () => <div></div>;
+const AlbertoVilloldo = () => <div></div>;
+const MunayKi = () => <div></div>;
 
 const Coursesheader = () => {
   return (
@@ -63,7 +63,7 @@ const Coursesheader = () => {
               </a>
             </li>
           </ul>
-          <ul className="flex gap-4 text-sm md:d-block hidden">
+          <ul className="lg:flex hidden gap-4 text-sm ">
             <li>
               <Link to="/blog">Blog</Link>
             </li>
