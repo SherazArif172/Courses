@@ -6,8 +6,12 @@ import Curve from "./images/download.svg";
 const SpirtualSection = () => {
   return (
     <div className="overflow-hidden relative mt-20 ">
-      <div className="absolute object-cover ">
-        <img src={BgGirlimg} alt="" className="bg-cover bg-center" />
+      <div className="absolute top-0  h-full w-full overflow-hidden">
+        <img
+          src={BgGirlimg}
+          alt=""
+          className="w-full h-full overflow-hidden object-cover object-center"
+        />
       </div>
       <div className="relative ">
         <img
@@ -16,7 +20,7 @@ const SpirtualSection = () => {
           className="md:w-[47%] w-full  pt-32 md:ps-28 md:px-0 px-7"
         />
       </div>
-      <div className="relative ps-24 pt-8 text-lg w-[50%] text-center font-thin">
+      <div className="relative lg:ps-24 lg:mx-0 mx-5 pt-8 text-lg lg:w-[50%] lg:m-0  text-center font-thin">
         <p>
           Thanks to our online courses, you can learn remotely, at your own pace
           from any location.

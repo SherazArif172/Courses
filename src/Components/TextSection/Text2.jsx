@@ -2,8 +2,8 @@ import React from "react";
 
 const Text2 = () => {
   return (
-    <div className="grid md:grid-cols-3 px-16">
-      <div className="px-9 md:pt-9  ">
+    <div className="grid md:grid-cols-3 lg:px-16">
+      <div className="lg:px-9 px-4 md:pt-9  ">
         <p className="text-center text-lg font-thin mt-4 text-[#666] tracking-widest leading-9 pb-6">
           ” I’ve journeyed for a few years but it was amazing to be able to get
           to the other 5 levels of the upper world. It was also very powerful to
@@ -20,7 +20,7 @@ const Text2 = () => {
         </span>
       </div>
 
-      <div className="px-9 md:pt-9">
+      <div className="lg:px-9 px-4 md:pt-9">
         <p className="text-center text-lg mt-4 font-thin text-[#666] tracking-widest leading-9 pb-6">
           “It feels all so familiar to me as if somehow I already ‘know’ what
           you are teaching. When I look back over my life, I can actually see
@@ -36,7 +36,7 @@ const Text2 = () => {
           Participant of Seven Heavens – The Shaman’s Toolbox
         </span>
       </div>
-      <div className="px-9 md:pt-9">
+      <div className="lg:px-9 px-4 md:pt-9">
         <p className="text-center text-lg mt-4 text-[#666] tracking-widest leading-9 pb-6 font-thin">
           “The course was so inspiring and empowering. I am using all the tools
           you gave us in my practice and as for myself, my life is transforming

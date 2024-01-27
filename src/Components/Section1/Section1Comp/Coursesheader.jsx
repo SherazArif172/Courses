@@ -63,7 +63,7 @@ const Coursesheader = () => {
               </a>
             </li>
           </ul>
-          <ul className="flex gap-4 text-sm d-block md:">
+          <ul className="flex gap-4 text-sm md:d-block hidden">
             <li>
               <Link to="/blog">Blog</Link>
             </li>

@@ -1,5 +1,5 @@
 import Section1 from "./Components/Section1/Section1";
-import CardSection from "./Components/CardSection/CardSection";
+import CardSection from "./Components/GitfSection/CardSection";
 import CoursesSection from "./Components/CoursesSection/CoursesSection";
 import SpirtualSection from "./Components/SpirtualSection/SpirtualSection";
 import AdvancedSection from "./Components/AdvancedCourses/AdvancedSection";
@@ -10,7 +10,7 @@ import FooterMain from "./Components/Footer/FooterMain";
 
 function App() {
   return (
-    <div>
+    <div className="min-w-screen">
       <Section1 />
       <CardSection />
       <CoursesSection />

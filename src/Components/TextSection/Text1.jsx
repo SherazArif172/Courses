@@ -6,8 +6,8 @@ const Text = () => {
       <h1 className="text-center text-4xl tracking-widest font-medium mt-7">
         WHAT PEOPLE ARE SAYING ABOUT OUR COURSES
       </h1>
-      <div className="grid md:grid-cols-3 px-16">
-        <div className="px-9 md:pt-9  ">
+      <div className="grid md:grid-cols-3 lg:px-16">
+        <div className="lg:px-9 px-4 md:pt-9  ">
           <p className="text-center text-lg font-thin mt-4 text-[#666] tracking-widest leading-9 pb-6">
             “A I have a greater sense of expanded awareness which has been
             amazingly freeing. I especially loved all the meditations Villoldo
@@ -20,7 +20,7 @@ const Text = () => {
           </span>
         </div>
 
-        <div className="px-9 md:pt-9">
+        <div className="lg:px-9 px-4 md:pt-9">
           <p className="text-center text-lg mt-4 font-thin text-[#666] tracking-widest leading-9 pb-6">
             “The greatest thing I got out of it was how much truth I felt in
             everything I learned. It really resonated with me. There was such
@@ -33,7 +33,7 @@ const Text = () => {
             Participant of The Shaman’s Way of Healing
           </span>
         </div>
-        <div className="px-9 md:pt-9">
+        <div className="lg:px-9 px-4 md:pt-9">
           <p className="text-center text-lg mt-4 text-[#666] tracking-widest leading-9 pb-6 font-thin">
             “This in-depth course propelled me forward along my spiritual path
             beyond my imagination. It was everything and more. What an amazing
