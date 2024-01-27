@@ -26,7 +26,7 @@ const SpirtualSection = () => {
           from any location.
         </p>
       </div>
-      <div className="relative w-full mt-[130px]">
+      <div className="relative w-full">
         <img src={Curve} alt="" className="w-full h-full" />
       </div>
     </div>
