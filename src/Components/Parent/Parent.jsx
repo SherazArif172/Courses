@@ -8,7 +8,7 @@ import MasterSection from "../MasterTraning/MasterSection";
 import TextMain from "../TextSection/TextMain";
 import FooterMain from "../Footer/FooterMain";
 
-function App() {
+function Parent() {
   return (
     <div className="w-[100%]">
       <Header />
@@ -24,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default Parent;
