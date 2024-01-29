@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logoo from "../images/fourwinds-favicon.png.png";
 import { FaBars } from "react-icons/fa";
-import { ImCross } from "react-icons/im";
+import { FaTimes } from "react-icons/fa";
 
 const LogoSection = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -55,7 +55,7 @@ const LogoSection = () => {
           {showMenu && (
             <div className="absolute top-4 right-4">
               <button onClick={closeMenu}>
-                <ImCross />
+                <FaTimes />
               </button>
             </div>
           )}

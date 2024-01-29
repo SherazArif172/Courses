@@ -9,7 +9,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/ecroll-courses" element={<Parent />} />
+        <Route path="/enroll-courses" element={<Parent />} />
       </Routes>
     </Router>
   );
